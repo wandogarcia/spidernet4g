@@ -51,8 +51,8 @@
       "FLAG": "vivo",
       "Payload": "GET /? HTTP/1.0[lf]Host: [lf]Upgrade: websocket[lf]Connection: Keep-AliveUser-Agent: [ua]Referer: [lf][lf]",
       "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
