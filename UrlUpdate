@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.8",
+  "Version": "1.0.1",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlUpdate",
   "Sms": "https://kiritosshxd.github.io/Conecta4g_site/UrlSms",
@@ -7,26 +7,10 @@
   "UrlContato": "https://t.me/kiritosshxd",
   "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
   "CheckUser": "false",
-  "Udp": [
-    {
-      "Porta": "7300"
-    },
-    {
-      "Porta": "7400"
-    },
-    {
-      "Porta": "7500"
-    },
-    {
-      "Porta": "7600"
-    },
-    {
-      "Porta": "7700"
-    }
-  ],
+  "UdpPort": "7300;7400;7500;7600;7700",
   "Servers": [
     {
-      "Name": "SpiderNet | 4G",
+      "Name": "SPIDERNET4G",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "sshw4g.xyz",
@@ -37,7 +21,7 @@
       "PASS": ""
     },
     {
-      "Name": "PREMIUM 02 | PLUS",
+      "Name": "PREMIUM 02",
       "TYPE": "free",
       "FLAG": "br.png",
       "ServerIP": "exemplo02.dominio.xyz",
@@ -50,13 +34,13 @@
   ],
   "Networks": [
     {
-      "Name": "VIVO BR1",
+      "Name": "VIVO 1",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: sshw4g.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
-      "ProxyPort": "80",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80;8080;8880;2052;2082",
       "Info": "Proxy"
     },
     {
@@ -76,7 +60,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
+      "ProxyPort": "80;8080;8880;2052;2082",
       "Info": "Proxy"
     },
     {
@@ -120,27 +104,27 @@
       "Info": "Tlsws"
     },
     {
+      "Name": "TIM SOCKS 06",
+      "FLAG": "tim",
+      "Payload": "ACL HTTP/1.1[lf]Host: google.es[lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "80;8080;8880;2052;2082",
+      "Info": "Direct"
+    },
+    {
       "Name": "CLARO TLS 01",
       "FLAG": "claro",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO TLS 02",
-      "FLAG": "claro",
-      "Payload": "GET ws://parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "parceirosclaro.com.br",
-      "TlsIP": "parceirosclaro.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO SSL 03",
+      "Name": "CLARO SSL 02",
       "FLAG": "claro",
       "Payload": "",
       "SNI": "dns.web.whatsapp.com",
@@ -150,7 +134,7 @@
       "Info": "Ssl"
     },
     {
-      "Name": "CLARO SSL 04",
+      "Name": "CLARO SSL 03",
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.waze.com",
@@ -160,7 +144,7 @@
       "Info": "Ssl"
     },
     {
-      "Name": "CLARO SSL 05",
+      "Name": "CLARO SSL 04",
       "FLAG": "claro",
       "Payload": "",
       "SNI": "web.whatsapp.com",
@@ -170,7 +154,7 @@
       "Info": "Ssl"
     },
     {
-      "Name": "CLARO SSL 06",
+      "Name": "CLARO SSL 05",
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.twitter.com",
@@ -186,7 +170,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
+      "ProxyPort": "80;8080;8880;2052;2082",
       "Info": "Proxy"
     },
     {
@@ -201,3 +185,4 @@
     }
   ]
 }
+ 
