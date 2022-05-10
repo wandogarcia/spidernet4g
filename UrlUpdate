@@ -1,7 +1,7 @@
 {
   "Version": "1.0.2",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
-  "UrlUpdate": "http://painel.sshw4g.xyz/apk/UrlUpdate",
+  "UrlUpdate": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlUpdate",
   "Sms": "https://kiritosshxd.github.io/Conecta4g_site/UrlSms",
   "EmailFeedback": "kiritosshxd5733@gmail.com",
   "UrlContato": "https://t.me/kiritosshxd",
@@ -51,8 +51,8 @@
       "FLAG": "vivo",
       "Payload": "GET /? HTTP/1.0[lf]Host: www.sshw4g.xyz[lf]Upgrade: websocket[lf]Connection: Keep-AliveUser-Agent: [ua]Referer: [lf][lf]",
       "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
