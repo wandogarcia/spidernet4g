@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.4",
+  "Version": "1.1.6",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlUpdate",
   "Sms": "https://kiritosshxd.github.io/Conecta4g_site/UrlSms",
@@ -37,11 +37,11 @@
       "Name": "VIVO 1",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
+      "SNI": "[app_host]",
+      "TlsIP": "104.16.19.94",
       "ProxyIP": "",
       "ProxyPort": "80;8080;8880;2052;2082",
-      "Info": "Direct"
+      "Info": "Tlsws"
     },
     {
       "Name": "VIVO TLS 02",
