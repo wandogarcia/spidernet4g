@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3.2",
+  "Version": "1.0.3.3",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlUpdate",
   "Sms": "https://kiritosshxd.github.io/Conecta4g_site/UrlSms",
@@ -84,7 +84,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO TLS 01",
+      "Name": "CLARO 1",
       "FLAG": "claro",
       "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "no.descomplica.com.br",
@@ -94,57 +94,17 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO SSL 02",
-      "FLAG": "claro",
-      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "no.descomplica.com.br",
-      "TlsIP": "104.16.85.20",
+      "Name": "OI 1",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO SSL 03",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "m.waze.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "CLARO SSL 04",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "web.whatsapp.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "CLARO SSL 05",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "m.twitter.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "OI PROXY 01",
-      "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80;8080;8880;2052;2082",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "OI TLS 02",
+      "Name": "OI 2",
       "FLAG": "oi",
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
