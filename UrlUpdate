@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2.5",
+  "Version": "1.0.2.6",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlUpdate",
   "Sms": "https://kiritosshxd.github.io/Conecta4g_site/UrlSms",
@@ -76,8 +76,8 @@
     {
       "Name": "TIM SOCKS 06",
       "FLAG": "tim",
-      "Payload": "ACL HTTP/1.1[lf]Host: mobilidade.cloud.caixa.gov.br[lf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "Payload": "ACL HTTP/1.1[lf]Host: [app_host][lf]",
+      "SNI": "[app_host]",
       "TlsIP": "104.16.19.94",
       "ProxyIP": "",
       "ProxyPort": "80;8080;8880;2052;2082",
