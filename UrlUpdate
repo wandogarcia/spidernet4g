@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.0.4",
+  "Version": "1.0.0.5",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlUpdate",
   "Sms": "https://kiritosshxd.github.io/Conecta4g_site/UrlSms",
@@ -98,7 +98,7 @@
       "FLAG": "tim",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
-      "TlsIP": "",
+      "TlsIP": "104.16.19.94:443",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Ssl"
