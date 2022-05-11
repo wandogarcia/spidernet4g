@@ -1,5 +1,5 @@
 {
-  "Version": "1.2.1",
+  "Version": "1.0.0.2",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlUpdate",
   "Sms": "https://kiritosshxd.github.io/Conecta4g_site/UrlSms",
@@ -10,7 +10,7 @@
   "UdpPort": "7300;7400;7500;7600;7700",
   "Servers": [
     {
-      "Name": "SPIDERNET4G",
+      "Name": "Servidor 1",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "sshw4g.xyz",
@@ -21,15 +21,15 @@
       "PASS": ""
     },
     {
-      "Name": "PREMIUM 02",
-      "TYPE": "free",
+      "Name": "Servidor 2",
+      "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "exemplo02.dominio.xyz",
+      "ServerIP": "vpsbr1.sshw4g.xyz",
       "CheckUser": "http://exemplo02.dominio.xyz:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "kirito",
-      "PASS": "1234"
+      "USER": "",
+      "PASS": ""
     }
   ],
   "Networks": [
@@ -44,7 +44,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO TLS 02",
+      "Name": "VIVO 2",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
