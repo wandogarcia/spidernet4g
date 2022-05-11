@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.0.6",
+  "Version": "1.0.0.8",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlUpdate",
   "Sms": "https://kiritosshxd.github.io/Conecta4g_site/UrlSms",
@@ -100,7 +100,7 @@
       "SNI": "[app_host]",
       "TlsIP": "",
       "ProxyIP": "104.16.19.94",
-      "ProxyPort": "443",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
