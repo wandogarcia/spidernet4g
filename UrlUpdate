@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.1.6",
+  "Version": "1.0.1.7",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlUpdate",
   "Sms": "https://kiritosshxd.github.io/Conecta4g_site/UrlSms",
@@ -78,7 +78,7 @@
       "FLAG": "tim",
       "Payload": "GET wss://m.timbancavirtual.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "m.timbancavirtual.com.br",
-      "TlsIP": "m.timbancavirtual.com.br",
+      "TlsIP": "104.16.19.94",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
