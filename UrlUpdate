@@ -1,10 +1,10 @@
 {
-  "Version": "2.0.2.3",
+  "Version": "2.0.2.4",
   "ReleaseNotes": "Nova atualização disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlSms",
   "EmailFeedback": "wasolucoes04@gmail.com",
-  "UrlContato": "https://t.me/kiritosshxd",
+  "UrlContato": "https://api.whatsapp.com/send?phone=5591993887641&text=Internet4G!",
   "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
   "CheckUser": "true",
   "UdpPort": "7300;7400;7500;7600;7700",
