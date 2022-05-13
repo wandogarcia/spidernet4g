@@ -1,5 +1,5 @@
 {
-  "Version": "2.0.3.5",
+  "Version": "2.0.3.6",
   "ReleaseNotes": "Nova atualização disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlSms",
@@ -100,8 +100,8 @@
       "SNI": "www.hbogo.com.br",
       "TlsIP": "104.16.51.91",
       "ProxyIP": "104.16.51.91",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "ProxyPort": "",
+      "Info": "Ssl"
     },
     {
       "Name": "OI 2",
@@ -111,7 +111,7 @@
       "TlsIP": "",
       "ProxyIP": "104.16.51.91",
       "ProxyPort": "80",
-      "Info": "Proxy"
+      "Info": "Ssl"
     }
   ]
 }
