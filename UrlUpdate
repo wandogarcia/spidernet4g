@@ -1,5 +1,5 @@
 {
-  "Version": "2.0.2.7",
+  "Version": "2.0.2.8",
   "ReleaseNotes": "Nova atualização disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlSms",
@@ -98,8 +98,8 @@
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "www.hbogo.com.br",
-      "TlsIP": "104.16.51.91",
-      "ProxyIP": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.51.91",
       "ProxyPort": "",
       "Info": "Proxy"
     },
