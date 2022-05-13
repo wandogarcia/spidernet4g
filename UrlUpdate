@@ -1,5 +1,5 @@
 {
-  "Version": "2.0.2.8",
+  "Version": "2.0.2.9",
   "ReleaseNotes": "Nova atualização disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wandogarcia/spidernet4g/main/UrlSms",
@@ -101,7 +101,7 @@
       "TlsIP": "",
       "ProxyIP": "104.16.51.91",
       "ProxyPort": "",
-      "Info": "Proxy"
+      "Info": "Ssl"
     },
     {
       "Name": "OI 2",
